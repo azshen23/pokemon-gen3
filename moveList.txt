@@ -342,10 +342,14 @@ Normal	15	50	100
 Ghost	10	—	—
 175	Flail	
 Normal	15	—	100
-176	Conversion 2	Normal	30	—	—
-177	Aeroblast	Flying	5	100	95
-178	Cotton Spore	Grass	40	—	100
-179	Reversal	Fighting	15	—	100
+176	Conversion 2	
+Normal	30	—	—
+177	Aeroblast	
+Flying	5	100	95
+178	Cotton Spore	
+Grass	40	—	100
+179	Reversal	
+Fighting	15	—	100
 180	Spite	Ghost	10	—	100
 181	Powder Snow	Ice	25	40	100
 182	Protect	Normal	10	—	—
