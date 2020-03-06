@@ -8,16 +8,24 @@
 #include <vector>
 #include <sstream>
 #include <cstdio>
+#include <bits/stdc++.h>
+#include "Utilities.cpp"
 
 using namespace std;
 class Move
 {
     public:
     //initializes the the name of the move
-    Move(const std::string &nameOfMove, int numMove)
+    Move(const std::string &nameOfMove, const std::string &moveType, const int &movePow, 
+         const int &moveAcc, const int &movePP)
     {
+        
         name = nameOfMove;
-        moveNumber = numMove;
+        type = moveType;
+        power = movePow;
+        accuracy = moveAcc;
+        pp = movePP;
+        
     }
     //turns the name of the move into a char array
     char* returnAsChar(std::string name)
@@ -30,52 +38,46 @@ class Move
     //returns the number value of the move
     int getMoveNumber(char moveName[])
     {
-
-        return moveNumber;
+        int nameLength = sizeof(moveName);
+        string nameOfMove = convertToString(moveName,nameLength);
+        for (int i = 0; i < 617; i++) //loops through the vector of moves
+        {
+            if (nameOfMove == moveList[i]->getNameOfMove()) //tries to find the right move
+            {
+                moveNumber = i + 1;
+                return moveNumber; //returns the index of the move + 1 when found
+            }
+        }
     }
     std::string getNameOfMove() const
     {
         return name;
     }
-    void setType(std::string moveType)
-    {
-        type = moveType;
-    }
     std::string getTypeOfMove() const
     {
         return type;
-    }
-    void setPower(int movePower)
-    {
-        power = movePower;
     }
     int getPower() const
     {
         return power;
     }
-    void setAccuracy(int moveAcc)
-    {
-        accuracy = moveAcc;
-    }
     int getAccuracy() const
     {
         return accuracy;
-    }
-    void setPP(int movePP)
-    {
-        pp = movePP;
     }
     int getPP() const
     {
         return pp;
     }
-
+    //reads in all the moves
     void moveReader()
     {
-        vector<Move*> moveList;
-        for (int i = 0; i < 796; i++)
+        ifstream read("moveList.txt");
+        string moveName, type;
+        int pow, acc, peepee;
+        for (int i = 0; i < 617; i++)
         {
-            
+            getline(read, moveName);
         }
     }
 
@@ -92,20 +94,14 @@ class Move
 
 
 
-
-
-
-
-
-
-
-
+    vector<Move*> moveList; //stores every single move
     private:
     std::string type;
     std::string name;
     int power, accuracy, pp; //things that make the move
 
     int moveNumber; //Every move has its own number
+    
 
 
 };
