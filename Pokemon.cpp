@@ -31,11 +31,9 @@ class Pokemon
     static constexpr const char* const TYPE_DRAGON = "Dragon";
     static constexpr const char* const TYPE_DARK= "Dark";
     static constexpr const char* const TYPE_FAIRY = "Fairy";
-
-    Pokemon();
     
     //if the pokemon doesn't have a nickname
-    Pokemon(const std::string &name, const std::string &item, const std::string &ability, const std::string &nature, 
+    Pokemon(const std::string &name, const std::string &item, const std::string &nature, 
             Moveset moves)
             {
 
@@ -43,7 +41,7 @@ class Pokemon
 
     //if pokemon has a nickname
     Pokemon(const std::string &nickname,
-            const std::string &name, const std::string &item, const std::string &ability, const std::string &nature, 
+            const std::string &name, const std::string &item, const std::string &nature, 
             Moveset moves)
             {
 
@@ -61,4 +59,6 @@ class Pokemon
     private:
     std::string nameOfPokemon;
     std::string typeOfPokemon;
+    std::string item;
+    std::string nature;
 }; 
