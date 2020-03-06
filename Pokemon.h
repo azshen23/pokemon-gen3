@@ -35,5 +35,10 @@ class Pokemon
 
     Pokemon(const std::string &name, const std::string &item, const std::string &ability, const std::string &nature, 
             const std::string &move1, const std::string &move2, const std::string &move3, const std::string &move4);
+
+    Pokemon(const std::string &nickname,
+            const std::string &name, const std::string &item, const std::string &ability, const std::string &nature, 
+            const std::string &move1, const std::string &move2, const std::string &move3, const std::string &move4);
+            
     private:
 }; 
