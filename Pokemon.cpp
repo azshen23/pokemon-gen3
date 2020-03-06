@@ -9,4 +9,3 @@
 #include <sstream>
 #include "Pokemon.h"
 
-Pokemon
