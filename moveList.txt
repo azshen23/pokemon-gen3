@@ -1,0 +1,786 @@
+Number  Name    Type    pp power accuracy
+
+1	Pound	
+Normal	35	40	100
+2	Karate Chop	
+Fighting	25	50	100
+3	Double Slap	
+Normal	10	15	85
+4	Comet Punch	
+Normal	15	18	85
+5	Mega Punch	
+Normal	20	80	85
+6	Pay Day	Normal	20	40	100
+7	Fire Punch	
+Fire	15	75	100
+8	Ice Punch	
+Ice	15	75	100
+9	Thunder Punch	
+Electric	15	75	100
+10	Scratch	
+Normal	35	40	100
+11	Vise Grip	
+Normal	30	55	100
+12	Guillotine	
+Normal	5	—	30
+13	Razor Wind	
+Normal	10	80	100
+14	Swords Dance	
+Normal	20	—	—
+15	Cut	
+Normal	30	50	95
+16	Gust	
+Flying	35	40	100
+17	Wing Attack	
+Flying	35	60	100
+18	Whirlwind	
+Normal	20	—	—
+19	Fly	
+Flying	15	90	95
+20	Bind	
+Normal	20	15	85
+21	Slam	
+Normal	20	80	75
+22	Vine Whip	Grass	25	45	100
+23	Stomp	
+Normal	20	65	100
+24	Double Kick	
+Fighting	30	30	100
+25	Mega Kick	
+Normal	5	120	75
+26	Jump Kick	
+Fighting	10	100	95
+27	Rolling Kick	
+Fighting	15	60	85
+28	Sand Attack	
+Ground	15	—	100
+29	Headbutt	
+Normal	15	70	100
+30	Horn Attack	
+Normal	25	65	100
+31	Fury Attack	
+Normal	20	15	85
+32	Horn Drill	
+Normal	5	—	30
+33	Tackle	Normal	35	40	100
+34	Body Slam	
+Normal	15	85	100
+35	Wrap	Normal	20	15	90
+36	Take Down	
+Normal	20	90	85
+37	Thrash	Normal	10	120	100
+38	Double-Edge	
+Normal	15	120	100
+39	Tail Whip	
+Normal	30	—	100
+40	Poison Sting	
+Poison	35	15	100
+41	Twineedle	
+Bug	20	25	100
+42	Pin Missile	
+Bug	20	25	95
+43	Leer	
+Normal	30	—	100
+44	Bite	
+Dark	25	60	100
+45	Growl	
+Normal	40	—	100
+46	Roar	
+Normal	20	—	—
+47	Sing	
+Normal	15	—	55
+48	Supersonic	
+Normal	20	—	55
+49	Sonic Boom	
+Normal	20	—	90
+50	Disable	
+Normal	20	—	100
+51	Acid	
+Poison	30	40	100
+52	Ember	
+Fire	25	40	100
+53	Flamethrower	
+Fire	15	90	100
+54	Mist	
+Ice	30	—	—
+55	Water Gun	
+Water	25	40	100
+56	Hydro Pump	
+Water	5	110	80
+57	Surf	
+Water	15	90	100
+58	Ice Beam	
+Ice	10	90	100
+59	Blizzard	
+Ice	5	110	70
+60	Psybeam	
+Psychic	20	65	100
+61	Bubble Beam	
+Water	20	65	100
+62	Aurora Beam	
+Ice	20	65	100
+63	Hyper Beam	
+Normal	5	150	90
+64	Peck	Flying	35	35	100
+65	Drill Peck	
+Flying	20	80	100
+66	Submission	
+Fighting	20	80	80
+67	Low Kick	
+Fighting	20	—	100
+68	Counter	
+Fighting	20	—	100
+69	Seismic Toss	
+Fighting	20	—	100
+70	Strength	
+Normal	15	80	100
+71	Absorb	
+Grass	25	20	100
+72	Mega Drain	
+Grass	15	40	100
+73	Leech Seed	
+Grass	10	—	90
+74	Growth	Normal	20	—	—
+75	Razor Leaf	
+Grass	25	55	95
+76	Solar Beam	
+Grass	10	120	100
+77	Poison Powder	
+Poison	35	—	75
+78	Stun Spore	
+Grass	30	—	75
+79	Sleep Powder	
+Grass	15	—	75
+80	Petal Dance	
+Grass	10*	120	100
+81	String Shot	
+Bug	40	—	95
+82	Dragon Rage	
+Dragon	10	—	100
+83	Fire Spin	
+Fire	15	35	85
+84	Thunder Shock	
+Electric	30	40	100
+85	Thunderbolt	
+Electric	15	90	100
+86	Thunder Wave	
+Electric	20	—	90
+87	Thunder	
+Electric	10	110	70
+88	Rock Throw	
+Rock	15	50	90
+89	Earthquake	
+Ground	10	100	100
+90	Fissure	
+Ground	5	—	30
+91	Dig	
+Ground	10	80	100
+92	Toxic	
+Poison	10	—	90
+93	Confusion	
+Psychic	25	50	100
+94	Psychic
+	Psychic	10	90	100
+95	Hypnosis	
+Psychic	20	—	60
+96	Meditate	
+Psychic	40	—	—
+97	Agility	Psychic	30	—	—
+98	Quick Attack	
+Normal	30	40	100
+99	Rage	
+Normal	20	20	100
+100	Teleport	
+Psychic	20	—	—
+101	Night Shade	
+Ghost	15	—	100
+102	Mimic	
+Normal	10	—	—
+103	Screech	
+Normal	40	—	85
+104	Double Team	
+Normal	15	—	—
+105	Recover	
+Normal	10	—	—
+106	Harden	
+Normal	30	—	—
+107	Minimize	
+Normal	10	—	—
+108	Smokescreen	
+Normal	20	—	100
+109	Confuse Ray	
+Ghost	10	—	100
+110	Withdraw	
+Water	40	—	—
+111	Defense Curl	
+Normal	40	—	—
+112	Barrier	
+Psychic	20	—	—
+113	Light Screen	
+Psychic	30	—	—
+114	Haze	
+Ice	30	—	—
+115	Reflect	
+Psychic	20	—	—
+116	Focus Energy	
+Normal	30	—	—
+117	Bide	
+Normal	10	—	—
+118	Metronome	
+Normal	10	—	—
+119	Mirror Move	
+Flying	20	—	—
+120	Self-Destruct	
+Normal	5	200	100
+121	Egg Bomb	
+Normal	10	100	75
+122	Lick	
+Ghost	30	30	100
+123	Smog	
+Poison	20	30	70
+124	Sludge	
+Poison	20	65	100
+125	Bone Club	
+Ground	20	65	85
+126	Fire Blast	
+Fire	5	110	85
+127	Waterfall	
+Water	15	80	100
+128	Clamp	
+Water	15	35	85
+129	Swift	
+Normal	20	60	—
+130	Skull Bash	
+Normal	10	130	100
+131	Spike Cannon	
+Normal	15	20	100
+132	Constrict	
+Normal	35	10	100
+133	Amnesia	
+Psychic	20	—	—
+134	Kinesis	
+Psychic	15	—	80
+135	Soft-Boiled	
+Normal	10	—	—
+136	High Jump Kick	
+Fighting	10	130	90
+137	Glare	
+Normal	30	—	100
+138	Dream Eater	
+Psychic	15	100	100
+139	Poison Gas	
+Poison	40	—	90
+140	Barrage	
+Normal	20	15	85
+141	Leech Life	
+Bug	10	80	100
+142	Lovely Kiss	
+Normal	10	—	75
+143	Sky Attack	
+Flying	5	140	90
+144	Transform	
+Normal	10	—	—
+145	Bubble	
+Water	30	40	100
+146	Dizzy Punch	
+Normal	10	70	100
+147	Spore	
+Grass	15	—	100
+148	Flash	
+Normal	20	—	100
+149	Psywave
+	Psychic	15	—	100
+150	Splash	
+Normal	40	—	—
+151	Acid Armor	
+Poison	20	—	—
+152	Crabhammer	
+Water	10	100	90
+153	Explosion	
+Normal	5	250	100
+154	Fury Swipes	
+Normal	15	18	80
+155	Bonemerang	
+Ground	10	50	90
+156	Rest	
+Psychic	10	—	—
+157	Rock Slide	
+Rock	10	75	90
+158	Hyper Fang	
+Normal	15	80	90
+159	Sharpen	
+Normal	30	—	—
+160	Conversion	
+Normal	30	—	—
+161	Tri Attack	
+Normal	10	80	100
+162	Super Fang	
+Normal	10	—	90
+163	Slash	
+Normal	20	70	100
+164	Substitute	
+Normal	10	—	—
+165	Struggle	
+Normal	1	50	—
+166	Sketch	
+Normal	1	—	—
+167	Triple Kick	
+Fighting	10	10	90
+168	Thief	
+Dark	25	60	100
+169	Spider Web	
+Bug	10	—	—
+170	Mind Reader	
+Normal	5	—	—
+171	Nightmare	
+Ghost	15	—	100
+172	Flame Wheel	
+Fire	25	60	100
+173	Snore	
+Normal	15	50	100
+174	Curse	
+Ghost	10	—	—
+175	Flail	
+Normal	15	—	100
+176	Conversion 2	Normal	30	—	—
+177	Aeroblast	Flying	5	100	95
+178	Cotton Spore	Grass	40	—	100
+179	Reversal	Fighting	15	—	100
+180	Spite	Ghost	10	—	100
+181	Powder Snow	Ice	25	40	100
+182	Protect	Normal	10	—	—
+183	Mach Punch	Fighting	30	40	100
+184	Scary Face	Normal	10	—	100
+185	Feint Attack	Dark	20	60	—
+186	Sweet Kiss	Fairy	10	—	75
+187	Belly Drum	Normal	10	—	—
+188	Sludge Bomb	Poison	10	90	100
+189	Mud-Slap	Ground	10	20	100
+190	Octazooka	Water	10	65	85
+191	Spikes	Ground	20	—	—
+192	Zap Cannon	Electric	5	120	50
+193	Foresight	Normal	40	—	—
+194	Destiny Bond	Ghost	5	—	—
+195	Perish Song	Normal	5	—	—
+196	Icy Wind	Ice	15	55	95
+197	Detect	Fighting	5	—	—
+198	Bone Rush	Ground	10	25	90
+199	Lock-On	Normal	5	—	—
+200	Outrage	Dragon	10	120	100
+201	Sandstorm	Rock	10	—	—
+202	Giga Drain	Grass	10	75	100
+203	Endure	Normal	10	—	—
+204	Charm	Fairy	20	—	100
+205	Rollout	Rock	20	30	90
+206	False Swipe	Normal	40	40	100
+207	Swagger	Normal	15	—	85
+208	Milk Drink	Normal	10	—	—
+209	Spark	Electric	20	65	100
+210	Fury Cutter	Bug	20	40	95
+211	Steel Wing	Steel	25	70	90
+212	Mean Look	Normal	5	—	—
+213	Attract	Normal	15	—	100
+214	Sleep Talk	Normal	10	—	—
+215	Heal Bell	Normal	5	—	—
+216	Return	Normal	20	—	100
+217	Present	Normal	15	—	90
+218	Frustration	Normal	20	—	100
+219	Safeguard	Normal	25	—	—
+220	Pain Split	Normal	20	—	—
+221	Sacred Fire	Fire	5	100	95
+222	Magnitude	Ground	30	—	100
+223	Dynamic Punch	Fighting	5	100	50
+224	Megahorn	Bug	10	120	85
+225	Dragon Breath	Dragon	20	60	100
+226	Baton Pass	Normal	40	—	—
+227	Encore	Normal	5	—	100
+228	Pursuit	Dark	20	40	100
+229	Rapid Spin	Normal	40	50	100
+230	Sweet Scent	Normal	20	—	100
+231	Iron Tail	Steel	15	100	75
+232	Metal Claw	Steel	35	50	95
+233	Vital Throw	Fighting	10	70	—
+234	Morning Sun	Normal	5	—	—
+235	Synthesis	Grass	5	—	—
+236	Moonlight	Fairy	5	—	—
+237	Hidden Power	Normal	15	60	100
+238	Cross Chop	Fighting	5	100	80
+239	Twister	Dragon	20	40	100
+240	Rain Dance	Water	5	—	—
+241	Sunny Day	Fire	5	—	—
+242	Crunch	Dark	15	80	100
+243	Mirror Coat	Psychic	20	—	100
+244	Psych Up	Normal	10	—	—
+245	Extreme Speed	Normal	5	80	100
+246	Ancient Power	Rock	5	60	100
+247	Shadow Ball	Ghost	15	80	100
+248	Future Sight	Psychic	10	120	100
+249	Rock Smash	Fighting	15	40	100
+250	Whirlpool	Water	15	35	85
+251	Beat Up	Dark	10	—	100
+252	Fake Out	Normal	10	40	100
+253	Uproar	Normal	10	90	100
+254	Stockpile	Normal	20	—	—
+255	Spit Up	Normal	10	—	100
+256	Swallow	Normal	10	—	—
+257	Heat Wave	Fire	10	95	90
+258	Hail	Ice	10	—	—
+259	Torment	Dark	15	—	100
+260	Flatter	Dark	15	—	100
+261	Will-O-Wisp	Fire	15	—	85
+262	Memento	Dark	10	—	100
+263	Facade	Normal	20	70	100
+264	Focus Punch	Fighting	20	150	100
+265	Smelling Salts	Normal	10	70	100
+266	Follow Me	Normal	20	—	—
+267	Nature Power	Normal	20	—	—
+268	Charge	Electric	20	—	—
+269	Taunt	Dark	20	—	100
+270	Helping Hand	Normal	20	—	—
+271	Trick	Psychic	10	—	100
+272	Role Play	Psychic	10	—	—
+273	Wish	Normal	10	—	—
+274	Assist	Normal	20	—	—
+275	Ingrain	Grass	20	—	—
+276	Superpower	Fighting	5	120	100
+277	Magic Coat	Psychic	15	—	—
+278	Recycle	Normal	10	—	—
+279	Revenge	Fighting	10	60	100
+280	Brick Break	Fighting	15	75	100
+281	Yawn	Normal	10	—	—
+282	Knock Off	Dark	20	65	100
+283	Endeavor	Normal	5	—	100
+284	Eruption	Fire	5	150	100
+285	Skill Swap	Psychic	10	—	—
+286	Imprison	Psychic	10	—	—
+287	Refresh	Normal	20	—	—
+288	Grudge	Ghost	5	—	—
+289	Snatch	Dark	10	—	—
+290	Secret Power	Normal	20	70	100
+291	Dive	Water	10	80	100
+292	Arm Thrust	Fighting	20	15	100
+293	Camouflage	Normal	20	—	—
+294	Tail Glow	Bug	20	—	—
+295	Luster Purge	Psychic	5	70	100
+296	Mist Ball	Psychic	5	70	100
+297	Feather Dance	Flying	15	—	100
+298	Teeter Dance	Normal	20	—	100
+299	Blaze Kick	Fire	10	85	90
+300	Mud Sport	Ground	15	—	—
+301	Ice Ball	Ice	20	30	90
+302	Needle Arm	Grass	15	60	100
+303	Slack Off	Normal	10	—	—
+304	Hyper Voice	Normal	10	90	100
+305	Poison Fang	Poison	15	50	100
+306	Crush Claw	Normal	10	75	95
+307	Blast Burn	Fire	5	150	90
+308	Hydro Cannon	Water	5	150	90
+309	Meteor Mash	Steel	10	90	90
+310	Astonish	Ghost	15	30	100
+311	Weather Ball	Normal	10	50	100
+312	Aromatherapy	Grass	5	—	—
+313	Fake Tears	Dark	20	—	100
+314	Air Cutter	Flying	25	60*	95
+315	Overheat	Fire	5	130*	90
+316	Odor Sleuth	Normal	40	—	—
+317	Rock Tomb	Rock	15	60*	95
+318	Silver Wind	Bug	5	60	100
+319	Metal Sound	Steel	40	—	85
+320	Grass Whistle	Grass	15	—	55
+321	Tickle	Normal	20	—	100
+322	Cosmic Power	Psychic	20	—	—
+323	Water Spout	Water	5	150	100
+324	Signal Beam	Bug	15	75	100
+325	Shadow Punch	Ghost	20	60	—
+326	Extrasensory	Psychic	20	80	100
+327	Sky Uppercut	Fighting	15	85	90
+328	Sand Tomb	Ground	15	35	85
+329	Sheer Cold	Ice	5	—	30
+330	Muddy Water	Water	10	90	85
+331	Bullet Seed	Grass	30	25	100
+332	Aerial Ace	Flying	20	60	—
+333	Icicle Spear	Ice	30	25	100
+334	Iron Defense	Steel	15	—	—
+335	Block	Normal	5	—	—
+336	Howl	Normal	40	—	—
+337	Dragon Claw	Dragon	15	80	100
+338	Frenzy Plant	Grass	5	150	90
+339	Bulk Up	Fighting	20	—	—
+340	Bounce	Flying	5	85	85
+341	Mud Shot	Ground	15	55	95
+342	Poison Tail	Poison	25	50	100
+343	Covet	Normal	25	60	100
+344	Volt Tackle	Electric	15	120	100
+345	Magical Leaf	Grass	20	60	—
+346	Water Sport	Water	15	—	—
+347	Calm Mind	Psychic	20	—	—
+348	Leaf Blade	Grass	15	90	100
+349	Dragon Dance	Dragon	20	—	—
+350	Rock Blast	Rock	10	25	90
+351	Shock Wave	Electric	20	60	—
+352	Water Pulse	Water	20	60	100
+353	Doom Desire	Steel	5	140	100
+354	Psycho Boost	Psychic	5	140	90
+355	Roost	Flying	10	—	—
+356	Gravity	Psychic	5	—	—
+357	Miracle Eye	Psychic	40	—	—
+358	Wake-Up Slap	Fighting	10	70	100
+359	Hammer Arm	Fighting	10	100	90
+360	Gyro Ball	Steel	5	—	100
+361	Healing Wish	Psychic	10	—	—
+362	Brine	Water	10	65	100
+363	Natural Gift	Normal	15	—	100
+364	Feint	Normal	10	30	100
+365	Pluck	Flying	20	60	100
+366	Tailwind	Flying	15	—	—
+367	Acupressure	Normal	30	—	—
+368	Metal Burst	Steel	10	—	100
+369	U-turn	Bug	20	70	100
+370	Close Combat	Fighting	5	120	100
+371	Payback	Dark	10	50	100
+372	Assurance	Dark	10	60	100
+373	Embargo	Dark	15	—	100
+374	Fling	Dark	10	—	100
+375	Psycho Shift	Psychic	10	—	100
+376	Trump Card	Normal	5	—	—
+377	Heal Block	Psychic	15	—	100
+378	Wring Out	Normal	5	—	100
+379	Power Trick	Psychic	10	—	—
+380	Gastro Acid	Poison	10	—	100
+381	Lucky Chant	Normal	30	—	—
+382	Me First	Normal	20	—	—
+383	Copycat	Normal	20	—	—
+384	Power Swap	Psychic	10	—	—
+385	Guard Swap	Psychic	10	—	—
+386	Punishment	Dark	5	—	100
+387	Last Resort	Normal	5	140	100
+388	Worry Seed	Grass	10	—	100
+389	Sucker Punch	Dark	5	70	100
+390	Toxic Spikes	Poison	20	—	—
+391	Heart Swap	Psychic	10	—	—
+392	Aqua Ring	Water	20	—	—
+393	Magnet Rise	Electric	10	—	—
+394	Flare Blitz	Fire	15	120	100
+395	Force Palm	Fighting	10	60	100
+396	Aura Sphere	Fighting	20	80	—
+397	Rock Polish	Rock	20	—	—
+398	Poison Jab	Poison	20	80	100
+399	Dark Pulse	Dark	15	80	100
+400	Night Slash	Dark	15	70	100
+401	Aqua Tail	Water	10	90	90
+402	Seed Bomb	Grass	15	80	100
+403	Air Slash	Flying	15	75	95
+404	X-Scissor	Bug	15	80	100
+405	Bug Buzz	Bug	10	90	100
+406	Dragon Pulse	Dragon	10	85	100
+407	Dragon Rush	Dragon	10	100	75
+408	Power Gem	Rock	20	80	100
+409	Drain Punch	Fighting	10	75	100
+410	Vacuum Wave	Fighting	30	40	100
+411	Focus Blast	Fighting	5	120	70
+412	Energy Ball	Grass	10	90	100
+413	Brave Bird	Flying	15	120	100
+414	Earth Power	Ground	10	90	100
+415	Switcheroo	Dark	10	—	100
+416	Giga Impact	Normal	5	150	90
+417	Nasty Plot	Dark	20	—	—
+418	Bullet Punch	Steel	30	40	100
+419	Avalanche	Ice	10	60	100
+420	Ice Shard	Ice	30	40	100
+421	Shadow Claw	Ghost	15	70	100
+422	Thunder Fang	Electric	15	65	95
+423	Ice Fang	Ice	15	65	95
+424	Fire Fang	Fire	15	65	95
+425	Shadow Sneak	Ghost	30	40	100
+426	Mud Bomb	Ground	10	65	85
+427	Psycho Cut	Psychic	20	70	100
+428	Zen Headbutt	Psychic	15	80	90
+429	Mirror Shot	Steel	10	65	85
+430	Flash Cannon	Steel	10	80	100
+431	Rock Climb	Normal	20	90	85
+432	Defog	Flying	15	—	—
+433	Trick Room	Psychic	5	—	—
+434	Draco Meteor	Dragon	5	130	90
+435	Discharge	Electric	15	80	100
+436	Lava Plume	Fire	15	80	100
+437	Leaf Storm	Grass	5	130	90
+438	Power Whip	Grass	10	120	85
+439	Rock Wrecker	Rock	5	150	90
+440	Cross Poison	Poison	20	70	100
+441	Gunk Shot	Poison	5	120	80
+442	Iron Head	Steel	15	80	100
+443	Magnet Bomb	Steel	20	60	—
+444	Stone Edge	Rock	5	100	80
+445	Captivate	Normal	20	—	100
+446	Stealth Rock	Rock	20	—	—
+447	Grass Knot	Grass	20	—	100
+448	Chatter	Flying	20	65	100
+449	Judgment	Normal	10	100	100
+450	Bug Bite	Bug	20	60	100
+451	Charge Beam	Electric	10	50	90
+452	Wood Hammer	Grass	15	120	100
+453	Aqua Jet	Water	20	40	100
+454	Attack Order	Bug	15	90	100
+455	Defend Order	Bug	10	—	—
+456	Heal Order	Bug	10	—	—
+457	Head Smash	Rock	5	150	80
+458	Double Hit	Normal	10	35	90
+459	Roar of Time	Dragon	5	150	90
+460	Spacial Rend	Dragon	5	100	95
+461	Lunar Dance	Psychic	10	—	—
+462	Crush Grip	Normal	5	—	100
+463	Magma Storm	Fire	5	100	75
+464	Dark Void	Dark	10	—	50
+465	Seed Flare	Grass	5	120	85
+466	Ominous Wind	Ghost	5	60	100
+467	Shadow Force	Ghost	5	120	100
+468	Hone Claws	Dark	15	—	—
+469	Wide Guard	Rock	10	—	—
+470	Guard Split	Psychic	10	—	—
+471	Power Split	Psychic	10	—	—
+472	Wonder Room	Psychic	10	—	—
+473	Psyshock	Psychic	10	80	100
+474	Venoshock	Poison	10	65	100
+475	Autotomize	Steel	15	—	—
+476	Rage Powder	Bug	20	—	—
+477	Telekinesis	Psychic	15	—	—
+478	Magic Room	Psychic	10	—	—
+479	Smack Down	Rock	15	50	100
+480	Storm Throw	Fighting	10	60	100
+481	Flame Burst	Fire	15	70	100
+482	Sludge Wave	Poison	10	95	100
+483	Quiver Dance	Bug	20	—	—
+484	Heavy Slam	Steel	10	—	100
+485	Synchronoise	Psychic	10	120	100
+486	Electro Ball	Electric	10	—	100
+487	Soak	Water	20	—	100
+488	Flame Charge	Fire	20	50	100
+489	Coil	Poison	20	—	—
+490	Low Sweep	Fighting	20	65	100
+491	Acid Spray	Poison	20	40	100
+492	Foul Play	Dark	15	95	100
+493	Simple Beam	Normal	15	—	100
+494	Entrainment	Normal	15	—	100
+495	After You	Normal	15	—	—
+496	Round	Normal	15	60	100
+497	Echoed Voice	Normal	15	40	100
+498	Chip Away	Normal	20	70	100
+499	Clear Smog	Poison	15	50	—
+500	Stored Power	Psychic	10	20	100
+501	Quick Guard	Fighting	15	—	—
+502	Ally Switch	Psychic	15	—	—
+503	Scald	Water	15	80	100
+504	Shell Smash	Normal	15	—	—
+505	Heal Pulse	Psychic	10	—	—
+506	Hex	Ghost	10	65	100
+507	Sky Drop	Flying	10	60	100
+508	Shift Gear	Steel	10	—	—
+509	Circle Throw	Fighting	10	60	90
+510	Incinerate	Fire	15	60	100
+511	Quash	Dark	15	—	100
+512	Acrobatics	Flying	15	55	100
+513	Reflect Type	Normal	15	—	—
+514	Retaliate	Normal	5	70	100
+515	Final Gambit	Fighting	5	—	100
+516	Bestow	Normal	15	—	—
+517	Inferno	Fire	5	100	50
+518	Water Pledge	Water	10	80	100
+519	Fire Pledge	Fire	10	80	100
+520	Grass Pledge	Grass	10	80	100
+521	Volt Switch	Electric	20	70	100
+522	Struggle Bug	Bug	20	50	100
+523	Bulldoze	Ground	20	60	100
+524	Frost Breath	Ice	10	60	90
+525	Dragon Tail	Dragon	10	60	90
+526	Work Up	Normal	30	—	—
+527	Electroweb	Electric	15	55	95
+528	Wild Charge	Electric	15	90	100
+529	Drill Run	Ground	10	80	95
+530	Dual Chop	Dragon	15	40	90
+531	Heart Stamp	Psychic	25	60	100
+532	Horn Leech	Grass	10	75	100
+533	Sacred Sword	Fighting	15	90	100
+534	Razor Shell	Water	10	75	95
+535	Heat Crash	Fire	10	—	100
+536	Leaf Tornado	Grass	10	65	90
+537	Steamroller	Bug	20	65	100
+538	Cotton Guard	Grass	10	—	—
+539	Night Daze	Dark	10	85	95
+540	Psystrike	Psychic	10	100	100
+541	Tail Slap	Normal	10	25	85
+542	Hurricane	Flying	10	110	70
+543	Head Charge	Normal	15	120	100
+544	Gear Grind	Steel	15	50	85
+545	Searing Shot	Fire	5	100	100
+546	Techno Blast	Normal	5	120	100
+547	Relic Song	Normal	10	75	100
+548	Secret Sword	Fighting	10	85	100
+549	Glaciate	Ice	10	65	95
+550	Bolt Strike	Electric	5	130	85
+551	Blue Flare	Fire	5	130	85
+552	Fiery Dance	Fire	10	80	100
+553	Freeze Shock	Ice	5	140	90
+554	Ice Burn	Ice	5	140	90
+555	Snarl	Dark	15	55	95
+556	Icicle Crash	Ice	10	85	90
+557	V-create	Fire	5	180	95
+558	Fusion Flare	Fire	5	100	100
+559	Fusion Bolt	Electric	5	100	100
+560	Flying Press	Fighting	10	100	95
+561	Mat Block	Fighting	10	—	—
+562	Belch	Poison	10	120	90
+563	Rototiller	Ground	10	—	—
+564	Sticky Web	Bug	20	—	—
+565	Fell Stinger	Bug	25	50	100
+566	Phantom Force	Ghost	10	90	100
+567	Trick-or-Treat	Ghost	20	—	100
+568	Noble Roar	Normal	30	—	100
+569	Ion Deluge	Electric	25	—	—
+570	Parabolic Charge	Electric	20	65	100
+571	Forest's Curse	Grass	20	—	100
+572	Petal Blizzard	Grass	15	90	100
+573	Freeze-Dry	Ice	20	70	100
+574	Disarming Voice	Fairy	15	40	—
+575	Parting Shot	Dark	20	—	100
+576	Topsy-Turvy	Dark	20	—	—
+577	Draining Kiss	Fairy	10	50	100
+578	Crafty Shield	Fairy	10	—	—
+579	Flower Shield	Fairy	10	—	—
+580	Grassy Terrain	Grass	10	—	—
+581	Misty Terrain	Fairy	10	—	—
+582	Electrify	Electric	20	—	—
+583	Play Rough	Fairy	10	90	90
+584	Fairy Wind	Fairy	30	40	100
+585	Moonblast	Fairy	15	95	100
+586	Boomburst	Normal	10	140	100
+587	Fairy Lock	Fairy	10	—	—
+588	King's Shield	Steel	10	—	—
+589	Play Nice	Normal	20	—	—
+590	Confide	Normal	20	—	—
+591	Diamond Storm	Rock	5	100	95
+592	Steam Eruption	Water	5	110	95
+593	Hyperspace Hole	Psychic	5	80	—
+594	Water Shuriken	Water	20	15	100
+595	Mystical Fire	Fire	10	75	100
+596	Spiky Shield	Grass	10	—	—
+597	Aromatic Mist	Fairy	20	—	—
+598	Eerie Impulse	Electric	15	—	100
+599	Venom Drench	Poison	20	—	100
+600	Powder	Bug	20	—	100
+601	Geomancy	Fairy	10	—	—
+602	Magnetic Flux	Electric	20	—	—
+603	Happy Hour	Normal	30	—	—
+604	Electric Terrain	Electric	10	—	—
+605	Dazzling Gleam	Fairy	10	80	100
+606	Celebrate	Normal	40	—	—
+607	Hold Hands	Normal	40	—	—
+608	Baby-Doll Eyes	Fairy	30	—	100
+609	Nuzzle	Electric	20	20	100
+610	Hold Back	Normal	40	40	100
+611	Infestation	Bug	20	20	100
+612	Power-Up Punch	Fighting	20	40	100
+613	Oblivion Wing	Flying	10	80	100
+614	Thousand Arrows	Ground	10	90	100
+615	Thousand Waves	Ground	10	90	100
+616	Land's Wrath	Ground	10	90	100
+617	Light of Ruin	Fairy	5	140	90
