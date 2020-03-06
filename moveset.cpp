@@ -19,17 +19,15 @@ class Move
         name = nameOfMove;
         moveNumber = numMove;
     }
-    Move(const std::string &nameOfMove, const std::string &type, const int power, const int accuracy, const int pp)
-    {
-
-    }
     //turns the name of the move into a char array
-    char returnAsChar(std::string name)
+    char* returnAsChar(std::string name)
     {
         char charName[name.size()+1];
         strcpy(charName, name.c_str());
-        
+        char* moveName = charName;
+        return moveName;
     }
+    //returns the number value of the move
     int getMoveNumber(char moveName[])
     {
 
@@ -37,12 +35,71 @@ class Move
     }
     std::string getNameOfMove() const
     {
-        return type;
-    }
-    std::string gettypeOfMove() const
-    {
         return name;
     }
+    void setType(std::string moveType)
+    {
+        type = moveType;
+    }
+    std::string getTypeOfMove() const
+    {
+        return type;
+    }
+    void setPower(int movePower)
+    {
+        power = movePower;
+    }
+    int getPower() const
+    {
+        return power;
+    }
+    void setAccuracy(int moveAcc)
+    {
+        accuracy = moveAcc;
+    }
+    int getAccuracy() const
+    {
+        return accuracy;
+    }
+    void setPP(int movePP)
+    {
+        pp = movePP;
+    }
+    int getPP() const
+    {
+        return pp;
+    }
+
+    void moveReader()
+    {
+        vector<Move*> moveList;
+        for (int i = 0; i < 796; i++)
+        {
+
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     private:
     std::string type;
     std::string name;
