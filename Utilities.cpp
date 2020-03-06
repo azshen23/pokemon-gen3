@@ -14,7 +14,7 @@ string convertToString(char *a, int size)
 {
     int i;
     string s = "";
-    for (i = 0l i < size; i ++)
+    for (i = 0; i < size; i ++)
     {
         s = s + a[i];
     }

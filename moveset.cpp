@@ -74,10 +74,26 @@ class Move
     {
         ifstream read("moveList.txt");
         string moveName, type;
-        int pow, acc, peepee;
+        string pow, acc, peepee;
+        int powOfMove, accOfMove, movePP;
         for (int i = 0; i < 617; i++)
         {
             getline(read, moveName);
+            read >> type >> peepee >> pow >> acc;
+            if (peepee != "—")
+                stoi(peepee, nullptr, movePP);
+            else 
+                movePP = -420;
+            if (pow != "—")
+                stoi(pow, nullptr, powOfMove);
+            else
+                powOfMove = -420;
+            if (acc != "—")
+                stoi(acc, nullptr, accOfMove);
+            else
+                accOfMove = -420;
+
+            moveList.push_back(new Move(moveName, type, powOfMove, accOfMove, movePP));
         }
     }
 
