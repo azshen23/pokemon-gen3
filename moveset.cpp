@@ -75,7 +75,7 @@ class Move
         vector<Move*> moveList;
         for (int i = 0; i < 796; i++)
         {
-
+            
         }
     }
 
