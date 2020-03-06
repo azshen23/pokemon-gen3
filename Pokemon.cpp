@@ -32,6 +32,10 @@ class Pokemon
     static constexpr const char* const TYPE_DARK= "Dark";
     static constexpr const char* const TYPE_FAIRY = "Fairy";
     
+    Pokemon()
+    {
+        
+    }
     //if the pokemon doesn't have a nickname
     Pokemon(const std::string &name, const std::string &item, const std::string &nature, 
             Moveset moves)

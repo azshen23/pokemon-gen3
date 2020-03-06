@@ -12,9 +12,14 @@
 #include "Utilities.cpp"
 
 using namespace std;
+//makes a vector of all the moves in the game and creates the objects for each move
 class Move
 {
     public:
+    //default constructor
+    Move()
+    {
+    }
     //initializes the the name of the move
     Move(const std::string &nameOfMove, const std::string &moveType, const int &movePow, 
          const int &moveAcc, const int &movePP)
@@ -69,7 +74,7 @@ class Move
     {
         return pp;
     }
-    //reads in all the moves
+    //reads in all the moves [idk where to put this rn]
     void moveReader()
     {
         ifstream read("moveList.txt");
@@ -97,37 +102,44 @@ class Move
         }
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     vector<Move*> moveList; //stores every single move
     private:
     std::string type;
     std::string name;
     int power, accuracy, pp; //things that make the move
-
     int moveNumber; //Every move has its own number
-    
-
-
 };
 class Moveset
 {
     public:
-    Moveset(const Move &move1, Move move2, Move move3, Move move4)
+    Moveset()
     {
 
     }
-
+    Moveset(const Move &moves1, const Move &moves2, const Move &moves3, const Move &moves4)
+    {
+        move1 = moves1;
+        move2 = moves2;
+        move3 = moves3;
+        move4 = moves4;
+    }
+    Move getMove1()
+    {
+        return move1;
+    }
+    Move getMove2()
+    {
+        return move2;
+    }
+    Move getMove3()
+    {
+        return move3;
+    }
+    Move getMove4()
+    {
+        return move4;
+    }
+    private:
+    Move move1, move2, move3, move4;
 
 };
