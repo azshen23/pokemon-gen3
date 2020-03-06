@@ -34,7 +34,7 @@ class Pokemon
     
     Pokemon()
     {
-        
+
     }
     //if the pokemon doesn't have a nickname
     Pokemon(const std::string &name, const std::string &item, const std::string &nature, 
@@ -50,7 +50,10 @@ class Pokemon
             {
 
             }
+    Pokemon (Pokemon poke, int hp, int attack, int defense, int speed)
+    {
 
+    }
     std::string getName() const
     {
         return nameOfPokemon;
@@ -65,4 +68,6 @@ class Pokemon
     std::string typeOfPokemon;
     std::string item;
     std::string nature;
+
+    int hp, attack, defense, speed;
 }; 
