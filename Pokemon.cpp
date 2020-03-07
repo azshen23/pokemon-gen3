@@ -8,51 +8,45 @@
 #include <vector>
 #include <sstream>
 #include "moveset.cpp"
+#include "types.cpp"
+#include "Stats.cpp"
 
 class Pokemon
 {
     public:
-    //all the types
-    static constexpr const char* const TYPE_NORMAL = "Normal";
-    static constexpr const char* const TYPE_FIGHT = "Fighting";
-    static constexpr const char* const TYPE_FLYING = "Flying";
-    static constexpr const char* const TYPE_POISON = "Poison";
-    static constexpr const char* const TYPE_GROUND = "Ground";
-    static constexpr const char* const TYPE_ROCK = "Rock";
-    static constexpr const char* const TYPE_BUG = "Bug";
-    static constexpr const char* const TYPE_GHOST = "Ghost";
-    static constexpr const char* const TYPE_STEEL = "Steel";
-    static constexpr const char* const TYPE_FIRE = "Fire";
-    static constexpr const char* const TYPE_WATER = "Water";
-    static constexpr const char* const TYPE_GRASS = "Grass";
-    static constexpr const char* const TYPE_ELECTR = "Electric";
-    static constexpr const char* const TYPE_PSYCHIC = "Psychic";
-    static constexpr const char* const TYPE_ICE = "Ice";
-    static constexpr const char* const TYPE_DRAGON = "Dragon";
-    static constexpr const char* const TYPE_DARK= "Dark";
-    static constexpr const char* const TYPE_FAIRY = "Fairy";
     
     Pokemon()
     {
 
     }
     //if the pokemon doesn't have a nickname
-    Pokemon(const std::string &name, const std::string &item, const std::string &nature, 
+    Pokemon(const std::string &name, const std::string &items, const std::string &natures, 
             Moveset moves)
             {
-
+                nameOfPokemon = name;
+                item = items;
+                nature = natures;
+                moveSet = moves;
             }
 
     //if pokemon has a nickname
     Pokemon(const std::string &nickname,
-            const std::string &name, const std::string &item, const std::string &nature, 
+            const std::string &name, const std::string &items, const std::string &natures, 
             Moveset moves)
             {
-
+                nickName = nickname;
+                nameOfPokemon = name;
+                item = items;
+                nature = natures;
+                moveSet = moves;
             }
-    Pokemon (Pokemon poke, int hp, int attack, int defense, int speed)
+    Pokemon (Pokemon poke, const Type &types, const Stats statistics)
     {
-
+        statOfPokemon = statistics;
+    }
+    std::string getNickName() const
+    {
+        return nickName;
     }
     std::string getName() const
     {
@@ -62,12 +56,40 @@ class Pokemon
     {
         return typeOfPokemon;
     }
+    std::string getItem()
+    {
+        return item;
+    }
+    std::string getNature()
+    {
+        return nature;
+    }
+    int getHP() 
+    {
+        return statOfPokemon.getHealth();
+    }
+    int getAtt() 
+    {
+        return statOfPokemon.getAttack();
+    }
+    int getDef()
+    {
+        return statOfPokemon.getDefense();
+    }
+    int getSpd()
+    {
+        return statOfPokemon.getSpeed();
+    }
+
            
     private:
     std::string nameOfPokemon;
+    std::string nickName;
     std::string typeOfPokemon;
     std::string item;
     std::string nature;
+    Stats statOfPokemon;
+    Moveset moveSet;
 
     int hp, attack, defense, speed;
 }; 
