@@ -15,36 +15,34 @@ using namespace std;
 //makes a vector of all the moves in the game and creates the objects for each move
 class Move
 {
-    public:
+public:
     //default constructor
     Move()
     {
     }
     //initializes the the name of the move
-    Move(const std::string &nameOfMove, const std::string &moveType, const int &movePow, 
+    Move(const std::string &nameOfMove, const std::string &moveType, const int &movePow,
          const int &moveAcc, const int &movePP)
     {
-        
         name = nameOfMove;
         type = moveType;
         power = movePow;
         accuracy = moveAcc;
         pp = movePP;
-        
     }
     //turns the name of the move into a char array
-    char* returnAsChar(std::string name)
+    char *returnAsChar(std::string name)
     {
-        char charName[name.size()+1];
+        char charName[name.size() + 1];
         strcpy(charName, name.c_str());
-        char* moveName = charName;
+        char *moveName = charName;
         return moveName;
     }
     //returns the number value of the move
     int getMoveNumber(char moveName[])
     {
         int nameLength = sizeof(moveName);
-        string nameOfMove = convertToString(moveName,nameLength);
+        string nameOfMove = convertToString(moveName, nameLength);
         for (int i = 0; i < 617; i++) //loops through the vector of moves
         {
             if (nameOfMove == moveList[i]->getNameOfMove()) //tries to find the right move
@@ -87,7 +85,7 @@ class Move
             read >> type >> peepee >> pow >> acc;
             if (peepee != "—")
                 stoi(peepee, nullptr, movePP);
-            else 
+            else
                 movePP = -420;
             if (pow != "—")
                 stoi(pow, nullptr, powOfMove);
@@ -102,19 +100,19 @@ class Move
         }
     }
 
-    vector<Move*> moveList; //stores every single move
-    private:
+    vector<Move *> moveList; //stores every single move
+private:
     std::string type;
     std::string name;
     int power, accuracy, pp; //things that make the move
-    int moveNumber; //Every move has its own number
+    int moveNumber;          //Every move has its own number
 };
+
 class Moveset
 {
-    public:
+public:
     Moveset()
     {
-
     }
     Moveset(const Move &moves1, const Move &moves2, const Move &moves3, const Move &moves4)
     {
@@ -139,7 +137,7 @@ class Moveset
     {
         return move4;
     }
-    private:
-    Move move1, move2, move3, move4;
 
+private:
+    Move move1, move2, move3, move4;
 };

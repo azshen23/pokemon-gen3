@@ -13,34 +13,32 @@
 
 class Pokemon
 {
-    public:
-    
+public:
     Pokemon()
     {
-
     }
     //if the pokemon doesn't have a nickname
-    Pokemon(const std::string &name, const std::string &items, const std::string &natures, 
-            Moveset moves)
-            {
-                nameOfPokemon = name;
-                item = items;
-                nature = natures;
-                moveSet = moves;
-            }
+    Pokemon(const std::string &name, const std::string &items, const std::string &natures,
+            Moveset moves, std::string status)
+    {
+        nameOfPokemon = name;
+        item = items;
+        nature = natures;
+        moveSet = moves;
+    }
 
     //if pokemon has a nickname
     Pokemon(const std::string &nickname,
-            const std::string &name, const std::string &items, const std::string &natures, 
-            Moveset moves)
-            {
-                nickName = nickname;
-                nameOfPokemon = name;
-                item = items;
-                nature = natures;
-                moveSet = moves;
-            }
-    Pokemon (Pokemon poke, const Type &types, const Stats statistics)
+            const std::string &name, const std::string &items, const std::string &natures,
+            Moveset moves, std::string status)
+    {
+        nickName = nickname;
+        nameOfPokemon = name;
+        item = items;
+        nature = natures;
+        moveSet = moves;
+    }
+    Pokemon(Pokemon poke, const Type &types, const Stats statistics)
     {
         statOfPokemon = statistics;
     }
@@ -64,11 +62,11 @@ class Pokemon
     {
         return nature;
     }
-    int getHP() 
+    int getHP()
     {
         return statOfPokemon.getHealth();
     }
-    int getAtt() 
+    int getAtt()
     {
         return statOfPokemon.getAttack();
     }
@@ -81,8 +79,7 @@ class Pokemon
         return statOfPokemon.getSpeed();
     }
 
-           
-    private:
+private:
     std::string nameOfPokemon;
     std::string nickName;
     std::string typeOfPokemon;
@@ -92,4 +89,4 @@ class Pokemon
     Moveset moveSet;
 
     int hp, attack, defense, speed;
-}; 
+};
