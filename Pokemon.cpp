@@ -19,7 +19,7 @@ public:
     }
     //if the pokemon doesn't have a nickname
     Pokemon(const std::string &name, const std::string &items, const std::string &natures,
-            Moveset moves, std::string status)
+            Moveset moves)
     {
         nameOfPokemon = name;
         item = items;
@@ -30,7 +30,7 @@ public:
     //if pokemon has a nickname
     Pokemon(const std::string &nickname,
             const std::string &name, const std::string &items, const std::string &natures,
-            Moveset moves, std::string status)
+            Moveset moves)
     {
         nickName = nickname;
         nameOfPokemon = name;
@@ -38,7 +38,7 @@ public:
         nature = natures;
         moveSet = moves;
     }
-    Pokemon(Pokemon poke, const Type &types, const Stats statistics)
+    Pokemon(Pokemon poke, const Type &types, const Stats statistics, std::string status)
     {
         statOfPokemon = statistics;
     }

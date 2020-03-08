@@ -11,16 +11,22 @@
 
 class Player
 {
-    public:
-    private: 
+public:
+    virtual int menu()
+    {
+    }
+
+private:
 };
 
 class ComputerPlayer : public Player
 {
-
 };
 
 class HumanPlayer : public Player
 {
-
+public:
+    virtual int menu()
+    {
+        }
 };
