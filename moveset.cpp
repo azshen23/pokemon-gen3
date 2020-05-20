@@ -48,7 +48,7 @@ public:
             if (nameOfMove == moveList[i]->getNameOfMove()) //tries to find the right move
             {
                 moveNumber = i + 1;
-                return moveNumber; //returns the index of the move + 1 when found
+                return moveNumber; //returns the index of the move + 1 when found.
             }
         }
     }
